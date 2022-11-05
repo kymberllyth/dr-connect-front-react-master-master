@@ -41,10 +41,10 @@ const HomeMain = () => {
                         <h1>O que gostaria de agendar?</h1>
                     </div>
                     <div className="textfield">
-                        <input type="text" name="usuario" placeholder="Escolha um convênio" />
+                        <input type="text" name="convenio" placeholder="Escolha um convênio" />
                     </div>
                     <div className="textfield">
-                        <input type="password" name="senha" placeholder="Escolha uma especialidade" />
+                        <input type="text" name="especialidade" placeholder="Escolha uma especialidade" />
                     </div>
                     <div className="card-button">
                         <Link to="/busca"><button className="btn-login trasitionButton" onClick={() => {}}>Buscar</button></Link>

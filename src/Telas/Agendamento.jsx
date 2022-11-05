@@ -36,7 +36,7 @@ const Agendamento = () => {
                         </div>
                         <div class="textfield">
                             <label for="insurance">Escolha um convênio: </label>
-                            <input type="password" name="insurance" required/>
+                            <input type="text" name="insurance" required/>
                         </div>
                         <div class="card-button">
                             <button class="btn-scheduling trasitionButton">Avançar</button>
